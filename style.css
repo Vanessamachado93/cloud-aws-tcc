@@ -1,0 +1,265 @@
+body {
+    background: linear-gradient(60.85deg, #4A9BFB 0%, #3331AA 41.31%, #571B87 67.7%, #A323A6 95.7%) fixed;
+}
+
+header {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+footer {
+    visibility: hidden;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    left: 0;
+}
+
+#ulbuttons {
+    display: flex;
+    position: absolute;
+    right: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+#libutton {
+    font-family: 'Powerr';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    padding: 20%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#notebookicondiv {
+    display: flex;
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    right: 0;
+}
+
+#slideshow-example {
+    background-color: #3331aa00;
+    display: flex;
+    position: fixed;
+    width: 30%;
+    height: 60%;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+
+#profile {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    width: 90%;
+    max-width: 300px;
+    min-height: 475px;
+    max-height: 475px;
+    background-color: #3437696e;
+    border-radius: 16px;
+    position: absolute;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    text-align: center;
+    color: #f1f3f3;
+    background-image: linear-gradient(135deg,
+            rgba(#752e7c, 0.35),
+            rgba(#734a58, 0.1) 15%,
+            #1b202809 20%,
+            #1b202831 100%);
+}
+
+#profileimage {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 175px;
+    height: 175px;
+    position: relative;
+}
+
+#profileimageimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#profileusername {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+#profileabout {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 1.5rem;
+}
+
+#profilelinks {
+    margin-top: 3.5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #7d8396;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+
+    i {
+        font-size: 1.25em;
+    }
+}
+
+#profilelinksimage {
+    height: 46px;
+    width: 46px;
+    filter: invert(100%);
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #slideshow-example {
+        background-color: #3331aa00;
+        display: flex;
+        width: 90%;
+        height: 50%;
+        margin-top: 5%;
+        background-color: #3331aa00;
+        display: flex;
+        position: fixed;
+        margin-left: 12%;
+        align-items: center;
+    }
+
+    #profile {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #3437696e;
+        border-radius: 16px;
+        position: absolute;
+        border: 3px solid transparent;
+        background-clip: padding-box;
+        text-align: center;
+        color: #f1f3f3;
+        background-image: linear-gradient(135deg,
+                rgba(#752e7c, 0.35),
+                rgba(#734a58, 0.1) 15%,
+                #1b202809 20%,
+                #1b202831 100%);
+    }
+
+    #notebookicondiv {
+        visibility: hidden;
+        display: flex;
+        background-color: transparent;
+        width: fit-content;
+        height: fit-content;
+        position: fixed;
+        right: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    header {
+        display: flex;
+    }
+
+    #nuvemicon {
+        visibility: hidden;
+        justify-content: center;
+    }
+
+    #notebookicondiv {
+        visibility: hidden;
+    }
+
+    #ulbuttons {
+        display: flex;
+    }
+
+    #libutton {
+        font-family: 'Powerr';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 15px;
+        left: 0;
+        padding-right: 100%;
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        padding: 5%;
+        cursor: pointer;
+    }
+
+
+    #slideshow-example {
+        background-color: #3331aa00;
+        display: flex;
+        width: 90%;
+        height: 50%;
+        margin-top: 5%;
+        background-color: #3331aa00;
+        display: flex;
+        position: fixed;
+        margin-left: 0%;
+        align-items: center;
+    }
+
+    .list {
+
+    }
+
+    #profile {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #3437696e;
+        border-radius: 16px;
+        position: absolute;
+        border: 3px solid transparent;
+        background-clip: padding-box;
+        text-align: center;
+        color: #f1f3f3;
+        background-image: linear-gradient(135deg,
+                rgba(#752e7c, 0.35),
+                rgba(#734a58, 0.1) 15%,
+                #1b202809 20%,
+                #1b202831 100%);
+    }
+
+
+}
