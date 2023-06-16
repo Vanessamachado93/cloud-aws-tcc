@@ -39,8 +39,9 @@ O Amazon S3 é um serviço de armazenamento em nuvem da AWS. É escalável, dur�
 Valor mês: 6,31 USD <br>
 Valor Anual: 75,72 USD
 
+## Gif animado!
+![GIF animado](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3M1NTc0MzZxa2Myd3Zpcm5qb2oybnpiZ3k2emQydzJpMzYzYmFqciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0KOpYOQ6OpQNiGpevR/giphy.gif)<br><br>
 
-![GIF animado](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3M1NTc0MzZxa2Myd3Zpcm5qb2oybnpiZ3k2emQydzJpMzYzYmFqciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0KOpYOQ6OpQNiGpevR/giphy.gif)
 
 <img src="./assets/site.png" alt="Texto alternativo" width="480" height="260">
 
